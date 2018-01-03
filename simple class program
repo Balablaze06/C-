@@ -1,0 +1,17 @@
+#include<iostream>
+
+using namespace std;
+
+class book
+{
+    public:
+        int a;
+        char b;
+};
+int main()
+{
+    book isis;
+    isis.a=66;
+    isis.b='c';
+    cout<<isis.a<<endl<<isis.b;
+}
