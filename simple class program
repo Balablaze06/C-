@@ -82,7 +82,7 @@ class book
         int a;
         book(void)
         {
-            a=46;
+           a=46;
         }
 };
 
