@@ -1,0 +1,27 @@
+/* simple object array */
+
+#include <iostream>
+
+using namespace std;
+
+class student
+{
+    public:
+        int rollno;
+        char name[20];
+}stud[5];
+int main() {
+   
+   for(int i =0; i<2; i++)
+   {
+       cin>>stud[i].rollno;
+       cin>>stud[i].name;
+       
+   }
+   /* this is to print the details */
+   for(int i=0;i<2;i++)
+   {
+       cout<<stud[i].rollno<<endl;
+       cout<<stud[i].name<<endl;
+   }
+}
