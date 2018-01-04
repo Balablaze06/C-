@@ -68,3 +68,26 @@ int main() {
        cout<<stud[i].name<<endl;
    }
 }
+
+
+/* constructor inside the class   */
+
+#include <iostream>
+
+using namespace std;
+
+class book
+{
+    public:
+        int a;
+        book(void)
+        {
+            a=46;
+        }
+};
+
+int main() {
+   
+   book book;
+   cout<<book.a;
+}
